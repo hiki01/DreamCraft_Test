@@ -3,7 +3,10 @@ using UnityEngine;
 
 public class PlayerMover : MonoBehaviour
 {
+    [Header("Params")]
     public float _moveSpeed = 5f;
+    
+    [Header("Object Refs")]
     private Rigidbody _rb;
 
     private void Awake()
